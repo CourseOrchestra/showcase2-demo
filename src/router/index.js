@@ -1,23 +1,32 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import PlatformEmblem from "../components/PlatformEmblem";
+import NavigatorPage from "../components/NavigatorPage";
+import GridPage from "../components/GridPage";
+import UrlState from "../components/UrlState";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
+    path: "/emblem",
+    name: "emblem",
+    component: PlatformEmblem,
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: "/navigator",
+    name: "navigator",
+    component: NavigatorPage,
+  },
+  {
+    path: "/grid",
+    name: "grid",
+    component: GridPage,
+  },
+  {
+    path: "/urlstate",
+    name: "urlstate",
+    component: UrlState,
   },
 ];
 
