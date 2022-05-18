@@ -1,6 +1,6 @@
 {
   "name": "showcase2-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -12,7 +12,8 @@
     "core-js": "^3.22.5",
     "vue": "^2.6.14",
     "vue-router": "^3.5.4",
-    "vuetify": "^2.6.6"
+    "vuetify": "^2.6.6",
+    "showcase2": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",
