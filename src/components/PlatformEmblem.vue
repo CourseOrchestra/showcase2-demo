@@ -3,6 +3,7 @@
     <v-row class="text-center">
       <v-col cols="12">
         <a
+          id="platform-emblem"
           href="https://share.curs.ru/platformcourse/doc/1/general.html"
           target="_blank"
         >
