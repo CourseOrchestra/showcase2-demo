@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "PlatformEmblem",
+  name: "PlatformEmblemPage",
 
   data: () => ({}),
 };
