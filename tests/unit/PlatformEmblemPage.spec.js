@@ -19,6 +19,6 @@ describe("PlatformEmblemPage.vue", () => {
       localVue,
       vuetify,
     });
-    expect(wrapper.html()).toContain("curs.ru");
+    expect(wrapper.html()).toContain("platform-emblem");
   });
 });

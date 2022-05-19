@@ -10,9 +10,7 @@ describe("e2e тесты", () => {
   it("Эмблема Платформы КУРС", () => {
     cy.visit("/emblem");
 
-    cy.get("#platform-emblem")
-      .should("have.attr", "href")
-      .and("contain", "curs.ru");
+    cy.get("#emblem1").should("have.attr", "href").and("contain", "curs.ru");
   });
   it("Навигатор", () => {
     cy.visit("/navigator");
