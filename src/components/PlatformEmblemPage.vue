@@ -21,6 +21,7 @@ export default {
 
   components: {
     PlatformEmblem,
+    //platformEmblem: () => import('showcase2/src/components/PlatformEmblem')
   },
 
   data: () => ({}),
