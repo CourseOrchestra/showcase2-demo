@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import { createLocalVue, shallowMount } from "@vue/test-utils";
-import PlatformEmblem from "@/components/PlatformEmblemPage.vue";
+import PlatformEmblemPage from "@/components/PlatformEmblemPage.vue";
 
 Vue.use(Vuetify);
 
@@ -15,7 +15,7 @@ describe("PlatformEmblemPage.vue", () => {
   });
 
   it("Эмблема Платформы КУРС", () => {
-    const wrapper = shallowMount(PlatformEmblem, {
+    const wrapper = shallowMount(PlatformEmblemPage, {
       localVue,
       vuetify,
     });

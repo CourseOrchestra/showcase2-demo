@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import { createLocalVue, shallowMount } from "@vue/test-utils";
-import UrlState from "@/components/UrlStatePage.vue";
+import UrlStatePage from "@/components/UrlStatePage.vue";
 
 Vue.use(Vuetify);
 
@@ -15,7 +15,7 @@ describe("UrlStatePage.vue", () => {
   });
 
   it("Навигатор", () => {
-    const wrapper = shallowMount(UrlState, {
+    const wrapper = shallowMount(UrlStatePage, {
       localVue,
       vuetify,
     });

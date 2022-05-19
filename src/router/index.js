@@ -1,17 +1,23 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import PlatformEmblem from "../components/PlatformEmblemPage";
+import WelcomePage from "../components/WelcomePage";
+import PlatformEmblemPage from "../components/PlatformEmblemPage";
 import NavigatorPage from "../components/NavigatorPage";
 import GridPage from "../components/GridPage";
-import UrlState from "../components/UrlStatePage";
+import UrlStatePage from "../components/UrlStatePage";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
+    path: "/",
+    name: "welcome",
+    component: WelcomePage,
+  },
+  {
     path: "/emblem",
     name: "emblem",
-    component: PlatformEmblem,
+    component: PlatformEmblemPage,
   },
   {
     path: "/navigator",
@@ -26,7 +32,7 @@ const routes = [
   {
     path: "/urlstate",
     name: "urlstate",
-    component: UrlState,
+    component: UrlStatePage,
   },
 ];
 

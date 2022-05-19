@@ -1,6 +1,7 @@
 describe("e2e тесты", () => {
-  it("Начальная страница", () => {
+  it("Welcome", () => {
     cy.visit("/");
+    cy.contains("span", "Welcome");
     cy.contains("span", "Эмблема Платформы КУРС");
     cy.contains("span", "Навигатор");
     cy.contains("span", "Грид");
