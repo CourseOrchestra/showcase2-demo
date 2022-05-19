@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import { createLocalVue, shallowMount } from "@vue/test-utils";
-import UrlState from "@/components/UrlState.vue";
+import UrlState from "@/components/UrlStatePage.vue";
 
 Vue.use(Vuetify);
 
 const localVue = createLocalVue();
 
-describe("UrlState.vue", () => {
+describe("UrlStatePage.vue", () => {
   let vuetify;
 
   beforeEach(() => {

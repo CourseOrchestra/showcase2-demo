@@ -1,9 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import PlatformEmblem from "../components/PlatformEmblem";
+import PlatformEmblem from "../components/PlatformEmblemPage";
 import NavigatorPage from "../components/NavigatorPage";
 import GridPage from "../components/GridPage";
-import UrlState from "../components/UrlState";
+import UrlState from "../components/UrlStatePage";
 
 Vue.use(VueRouter);
 

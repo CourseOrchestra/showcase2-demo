@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import { createLocalVue, shallowMount } from "@vue/test-utils";
-import PlatformEmblem from "@/components/PlatformEmblem.vue";
+import PlatformEmblem from "@/components/PlatformEmblemPage.vue";
 
 Vue.use(Vuetify);
 
 const localVue = createLocalVue();
 
-describe("PlatformEmblem.vue", () => {
+describe("PlatformEmblemPage.vue", () => {
   let vuetify;
 
   beforeEach(() => {
