@@ -1,11 +1,11 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="16" sm="12" md="8">
+      <v-col cols="6">
         <platform-emblem id="emblem1"></platform-emblem>
         <platform-emblem id="emblem2"></platform-emblem>
       </v-col>
-      <v-col cols="16" sm="12" md="8">
+      <v-col cols="6">
         <platform-emblem id="emblem3"></platform-emblem>
         <platform-emblem id="emblem4"></platform-emblem>
       </v-col>
