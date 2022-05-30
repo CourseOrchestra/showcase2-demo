@@ -12,9 +12,9 @@ module.exports = {
     parser: "@babel/eslint-parser",
   },
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "error" : "warn",
-    "no-alert": process.env.NODE_ENV === "production" ? "error" : "warn",
-    "no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn",
+    "no-console": "error",
+    "no-alert": "error",
+    "no-debugger": "error",
   },
   overrides: [
     {
