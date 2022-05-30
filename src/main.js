@@ -3,6 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import vuetify from "./plugins/vuetify";
 
+import { showcase2 } from "showcase2";
+Vue.use(showcase2);
+
 Vue.config.productionTip = false;
 
 new Vue({

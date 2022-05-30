@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import PlatformEmblem from "showcase2/src/components/PlatformEmblem";
+//import PlatformEmblem from "showcase2/src/components/PlatformEmblem";
 
 export default {
   name: "PlatformEmblemPage",
 
   components: {
-    PlatformEmblem,
+    //PlatformEmblem,
     //platformEmblem: () => import('showcase2/src/components/PlatformEmblem')
   },
 

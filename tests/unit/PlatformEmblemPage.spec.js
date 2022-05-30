@@ -5,6 +5,9 @@ import PlatformEmblemPage from "@/components/PlatformEmblemPage.vue";
 
 Vue.use(Vuetify);
 
+import { showcase2 } from "showcase2";
+Vue.use(showcase2);
+
 const localVue = createLocalVue();
 
 describe("PlatformEmblemPage.vue", () => {
