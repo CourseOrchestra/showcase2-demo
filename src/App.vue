@@ -7,6 +7,9 @@
       <v-btn href="/logocurs" text>
         <span class="mr-2">Логотип КУРСа</span>
       </v-btn>
+      <v-btn href="/logoplatform" text>
+        <span class="mr-2">Логотип Платформы</span>
+      </v-btn>
       <v-btn href="/navigator" text>
         <span class="mr-2">Навигатор</span>
       </v-btn>

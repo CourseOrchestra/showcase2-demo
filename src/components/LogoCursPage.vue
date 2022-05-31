@@ -20,8 +20,8 @@ export default {
   name: "LogoCursPage",
 
   components: {
-    //    LogoCurs,
-    //    LogoCurs: () => import('showcase2/src/components/LogoCurs')
+    //      LogoCurs,
+    //LogoCurs: () => import("showcase2/src/components/LogoCurs"),
   },
 
   data: () => ({}),
