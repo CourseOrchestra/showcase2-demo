@@ -2,15 +2,15 @@ describe("e2e тесты", () => {
   it("Welcome", () => {
     cy.visit("/");
     cy.contains("span", "Welcome");
-    cy.contains("span", "Эмблема Платформы КУРС");
+    cy.contains("span", "Логотип КУРСа");
     cy.contains("span", "Навигатор");
     cy.contains("span", "Грид");
     cy.contains("span", "Состояние");
   });
-  it("Эмблема Платформы КУРС", () => {
-    cy.visit("/emblem");
+  it("Логотип КУРСа", () => {
+    cy.visit("/logocurs");
 
-    cy.get("#emblem1").should("have.attr", "href").and("contain", "curs.ru");
+    cy.get("#lcurs1").should("have.attr", "href").and("contain", "curs.ru");
   });
   it("Навигатор", () => {
     cy.visit("/navigator");

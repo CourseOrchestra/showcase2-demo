@@ -4,8 +4,8 @@
       <v-btn href="/" text>
         <span class="mr-2">Welcome</span>
       </v-btn>
-      <v-btn href="/emblem" text>
-        <span class="mr-2">Эмблема Платформы КУРС</span>
+      <v-btn href="/logocurs" text>
+        <span class="mr-2">Логотип КУРСа</span>
       </v-btn>
       <v-btn href="/navigator" text>
         <span class="mr-2">Навигатор</span>

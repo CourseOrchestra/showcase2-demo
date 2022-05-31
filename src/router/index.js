@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import WelcomePage from "../components/WelcomePage";
-import PlatformEmblemPage from "../components/PlatformEmblemPage";
+import LogoCursPage from "../components/LogoCursPage";
 import NavigatorPage from "../components/NavigatorPage";
 import GridPage from "../components/GridPage";
 import UrlStatePage from "../components/UrlStatePage";
@@ -15,9 +15,9 @@ const routes = [
     component: WelcomePage,
   },
   {
-    path: "/emblem",
-    name: "emblem",
-    component: PlatformEmblemPage,
+    path: "/logocurs",
+    name: "logocurs",
+    component: LogoCursPage,
   },
   {
     path: "/navigator",
