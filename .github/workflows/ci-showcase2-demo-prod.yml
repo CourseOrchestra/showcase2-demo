@@ -39,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Run build2
-        uses: canastro/copy-file-action
+        uses: canastro/copy-file-action@master
         with:
           source: "dist/index.html"
           target: "dist/404.html"
