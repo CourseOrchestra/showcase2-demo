@@ -35,8 +35,14 @@ jobs:
       - name: Run e2e tests
         run: npm run test:e2e:ci
 
-      - name: Run build
+      - name: Run build1
         run: npm run build
+
+      - name: Run build2
+        uses: canastro/copy-file-action@master
+        with:
+          source: "dist/index.html"
+          target: "dist/404.html"
 
       - name: Run deploy
         uses: JamesIves/github-pages-deploy-action@v4
