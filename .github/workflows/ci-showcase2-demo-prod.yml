@@ -39,6 +39,6 @@ jobs:
         run: npm run build
 
       - name: Run deploy
-        run: ./deploy.sh
+        run: sh ./deploy.sh
         shell: bash
 
