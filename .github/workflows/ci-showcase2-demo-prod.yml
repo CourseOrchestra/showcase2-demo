@@ -38,3 +38,7 @@ jobs:
       - name: Run build
         run: npm run build
 
+      - name: Run publish script
+        run: ./build.sh
+        shell: bash
+
