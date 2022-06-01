@@ -4,8 +4,11 @@ set -e
 
 cd dist
 
-#git init
-git config --global init.defaultBranch main
+git init
+#git config --global init.defaultBranch main
+
+git config user.name "CourseOrchestra"
+
 git add -A
 git commit -m 'deploy'
 
