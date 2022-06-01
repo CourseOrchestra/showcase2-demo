@@ -1,6 +1,13 @@
 {
   "name": "showcase2-demo",
-  "version": "1.1.4",
+  "author": "CourseIT",
+  "version": "1.1.19",
+  "description": "showcase2-demo",
+  "license": "GNU GENERAL PUBLIC LICENSE, Version 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CourseOrchestra/showcase2-demo"
+  },
   "homepage": "https://CourseOrchestra.github.io/showcase2-demo",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -15,7 +22,7 @@
     "vue": "^2.6.14",
     "vue-router": "^3.5.4",
     "vuetify": "^2.6.6",
-    "showcase2": "^1.0.16"
+    "showcase2": "^1.0.19"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
