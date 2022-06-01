@@ -38,7 +38,13 @@ jobs:
       - name: Run build
         run: npm run build
 
+        #      - name: Run deploy
+        #run: sh ./deploy.sh
+        #shell: bash
+
       - name: Run deploy
-        run: sh ./deploy.sh
-        shell: bash
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
 
