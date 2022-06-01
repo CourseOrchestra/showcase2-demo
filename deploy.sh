@@ -4,7 +4,8 @@ set -e
 
 cd dist
 
-git init
+#git init
+git config --global init.defaultBranch main
 git add -A
 git commit -m 'deploy'
 
