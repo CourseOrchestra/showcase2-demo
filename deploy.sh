@@ -4,6 +4,8 @@ set -e
 
 cd dist
 
+git config user.name "CourseOrchestra"
+
 git init
 #git config --global init.defaultBranch main
 
