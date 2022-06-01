@@ -1,6 +1,6 @@
 {
   "name": "showcase2-demo",
-  "version": "1.0.16",
+  "version": "1.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,9 +31,9 @@
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^9.0.1",
+    "eslint-plugin-vue": "^9.1.0",
     "jest": "^28.1.0",
-    "lint-staged": "^12.4.3",
+    "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
     "sass": "^1.52.1",
     "sass-loader": "^13.0.0",
