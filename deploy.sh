@@ -5,8 +5,11 @@ set -e
 cd dist
 
 
+git config --global init.defaultBranch main
+
 git init
-# git config --global init.defaultBranch main
+
+git config --global init.defaultBranch main
 
 git config user.name "CourseOrchestra"
 
