@@ -11,7 +11,10 @@ git init
 
 git config --global init.defaultBranch main
 
-git config user.name "CourseOrchestra"
+# git config user.name "CourseOrchestra"
+
+git config --global user.name "Boris"
+git config --global user.email toborto@yandex.ru
 
 git add -A
 git commit -m 'deploy'
