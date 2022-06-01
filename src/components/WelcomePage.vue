@@ -1,18 +1,26 @@
 <template>
   <v-container>
+    <br />
+    <br />
     <v-row>
-      <v-col cols="12" sm="6" md="4">
+      <v-col class="font-weight-bold">
+        <h2>Версии</h2>
+        <br />
+        <v-text-field
+          readonly
+          outlined
+          v-model="libVersion"
+          label="showcase2"
+        ></v-text-field>
         <v-text-field
           readonly
           outlined
           v-model="appVersion"
-          hint="Версия клиентской части"
-          label="Версия клиентской части"
+          label="showcase2-demo"
         ></v-text-field>
       </v-col>
-    </v-row>
-    <v-row class="text-center">
-      <v-col cols="12">
+      <br />
+      <v-col>
         <v-img :src="require('../assets/welcome.png')" contain />
       </v-col>
     </v-row>
@@ -20,13 +28,21 @@
 </template>
 
 <script>
-import packageInfo from "@/../package";
+import appPackageInfo from "@/../package";
+import libPackageInfo from "showcase2/package";
 
 export default {
   name: "WelcomePage",
 
   data: () => ({
-    appVersion: packageInfo.version,
+    appVersion: appPackageInfo.version,
+    libVersion: libPackageInfo.version,
   }),
 };
 </script>
+
+<style lang="scss" scoped>
+.v-text-field ::v-deep label {
+  font-size: 1.4em;
+}
+</style>
