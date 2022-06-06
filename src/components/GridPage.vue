@@ -7,3 +7,15 @@
     </v-row>
   </v-container>
 </template>
+
+<script>
+import { setTitle } from "@/utils/common";
+
+export default {
+  name: "GridPage",
+
+  created() {
+    setTitle("Грид");
+  },
+};
+</script>

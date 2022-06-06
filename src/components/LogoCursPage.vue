@@ -15,6 +15,7 @@
 
 <script>
 //import LogoCurs from "showcase2/src/components/LogoCurs";
+import { setTitle } from "@/utils/common";
 
 export default {
   name: "LogoCursPage",
@@ -25,5 +26,9 @@ export default {
   },
 
   data: () => ({}),
+
+  created() {
+    setTitle("Логотип КУРСа");
+  },
 };
 </script>

@@ -30,6 +30,7 @@
 <script>
 import appPackageInfo from "@/../package";
 import libPackageInfo from "showcase2/package";
+import { setTitle } from "@/utils/common";
 
 export default {
   name: "WelcomePage",
@@ -38,6 +39,10 @@ export default {
     appVersion: appPackageInfo.version,
     libVersion: libPackageInfo.version,
   }),
+
+  created() {
+    setTitle("Welcome");
+  },
 };
 </script>
 

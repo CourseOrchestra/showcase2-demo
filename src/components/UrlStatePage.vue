@@ -9,3 +9,15 @@
     </v-row>
   </v-container>
 </template>
+
+<script>
+import { setTitle } from "@/utils/common";
+
+export default {
+  name: "UrlStatePage",
+
+  created() {
+    setTitle("Состояние в url");
+  },
+};
+</script>

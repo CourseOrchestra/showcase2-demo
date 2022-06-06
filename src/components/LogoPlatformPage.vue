@@ -23,6 +23,7 @@
 
 <script>
 //import LogoPlatform from "showcase2/src/components/LogoPlatform";
+import { setTitle } from "@/utils/common";
 
 export default {
   name: "LogoPlatformPage",
@@ -33,5 +34,9 @@ export default {
   },
 
   data: () => ({}),
+
+  created() {
+    setTitle("Логотип Платформы");
+  },
 };
 </script>
