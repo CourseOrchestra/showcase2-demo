@@ -4,4 +4,12 @@ module.exports = defineConfig({
 
   transpileDependencies: ["vuetify"],
   lintOnSave: false,
+
+  configureWebpack: {
+    optimization: {
+      splitChunks: {
+        maxSize: 250000,
+      },
+    },
+  },
 });
