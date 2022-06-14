@@ -19,6 +19,6 @@ describe("GridPage.vue", () => {
       localVue,
       vuetify,
     });
-    expect(wrapper.html()).toContain("Демонстрация грида");
+    expect(wrapper.html()).toContain("itemsperpage");
   });
 });

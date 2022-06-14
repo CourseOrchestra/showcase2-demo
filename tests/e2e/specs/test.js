@@ -24,7 +24,6 @@ describe("e2e тесты", () => {
   });
   it("Грид", () => {
     cy.visit("/grid");
-    cy.contains("h1", "Демонстрация грида");
   });
   it("Состояние в url", () => {
     cy.visit("/urlstate");
